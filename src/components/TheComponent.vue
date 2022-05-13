@@ -14,7 +14,4 @@ const test = storeTest();
 @use "./../mixins"
 
 #the-component
-  @include mixins.flex-center
-  color: vars.$red
-  @include mixins.shadow
 </style>
