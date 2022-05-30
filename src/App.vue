@@ -1,12 +1,11 @@
-<template>
-  <TheComponent />
-</template>
+<template></template>
 
-<script setup>
-import TheComponent from "./components/TheComponent.vue";
-</script>
+<script setup></script>
 
 <style lang="sass">
+@use "./mixins"
+@use "./vars"
+
 *
   margin: 0
   padding: 0
@@ -14,4 +13,6 @@ import TheComponent from "./components/TheComponent.vue";
 
 #app
   font-family: "Inter"
+  min-height: 100vh
+  @include mixins.flex-center
 </style>
