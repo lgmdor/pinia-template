@@ -3,8 +3,9 @@
 <script setup></script>
 
 <style lang="sass">
-@use "./mixins"
-@use "./vars"
+@use "./sass/mixins"
+@use "./sass/vars"
+@use "./sass/themes"
 
 *
   margin: 0
